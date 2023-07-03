@@ -43,7 +43,22 @@ const Experience = () => { //classNames within headers help it match with correc
         >
           <h3 className='vertical-timeline-element-title'>UF Information Technology</h3> 
           <h4 className='vertical-timeline-element-subtitle'>Research and Computing Support Intern</h4>
-          <p>Computer Engineering</p>
+          <p>Assisted users with usage of supercomputer, answering questions on CPU usage, memory efficiency, troubleshooting</p>
+          <p>Managed Conda environments to install new software libraries</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement //within the element brackets, set style/appearance, within Element brackets, put content with corr. html tags
+          className="vertical-timeline-element--work"
+          date= "May 2023 - August 2023"
+          icon = {<WorkIcon/>}
+          iconStyle={{background: "#8198FD", color: "#fff"}}
+        >
+          <h3 className='vertical-timeline-element-title'>UKG</h3> 
+          <h4 className='vertical-timeline-element-subtitle'>Software Engineering Intern</h4>
+          <p>Worked in Agile environment to add new features to UKG Pro mobile app, helping employees manage their information</p>
+          <p>Used Angular library to create new frontend UI for users to view and edit personal phone numbers</p>
+          <p>Updated Mobile API on backend in C# to handle user requests to update personal information</p>
+
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
