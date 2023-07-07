@@ -20,8 +20,16 @@ const Home = () => {
 
       <div className= 'skills'>
         <h2>Skills</h2>
-        <p>Programming Languages: Java, C++, Python, JavaScript, TypeScript, HTML, CSS, Matlab, C#</p>
-        <p>Frameworks/Tools: Git, Angular, React, Windows OS, Linux, Visual Studio, IntelliJ</p>
+        <ol className = 'list'>
+          <li>
+            <h2>Programming Languages:</h2>
+            <span>Java, C++, Python, JavaScript, TypeScript, HTML, CSS, Matlab</span>
+          </li>
+          <li>
+            <h2>Frameworks/Tools:</h2>
+            <span><span>Frameworks/Tools: Git, Angular, React, Windows OS, Linux, Visual Studio, IntelliJ</span></span>
+          </li>
+        </ol>
       </div>
 
     </div>
